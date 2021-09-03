@@ -1,5 +1,5 @@
 """
-Given an N by N matrix, rotate it by 90 degrees clockwise.
+Given an N by M matrix, rotate it by 90 degrees clockwise.
 """
 matrix = [[1,2],[3,4],[5,6]]
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
