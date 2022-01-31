@@ -25,7 +25,7 @@ As an example, the fourth term is 1211, since the third term consists of one 2 a
 Given an integer N, print the Nth term of this sequence.
 [Solution](18_12.py)
 
-### Problem 20_12
+### Problem 20/12
 
 UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
 For example, the Euro sign, €, corresponds to the three bytes 11100010 10000010 10101100. The rules for 
