@@ -33,10 +33,10 @@ mapping characters are as follows:
 For a single-byte character, the first bit must be zero.
 For an n-byte character, the first byte starts with n ones and a zero. The other n - 1 bytes all start with 10.
 Visually, this can be represented as follows.
-   1 bit     0xxxxxxx 
-   2 bit 110xxxxx 10xxxxxx
-   3 bit 1110xxxx 10xxxxxx 10xxxxxx
-   4 bit 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+<br/> 1 bit     0xxxxxxx 
+<br/> 2 bit 110xxxxx 10xxxxxx
+<br/> 3 bit 1110xxxx 10xxxxxx 10xxxxxx
+<br/> 4 bit 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid 
 UTF-8 encoding.
 [Solution](20_12.py)
