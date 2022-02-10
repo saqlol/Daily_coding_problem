@@ -1,8 +1,15 @@
 # Daily_coding_problem
 Solutions (si possible) aux problèmes quotidiens de Daily Coding Problem  en Python ( https://www.dailycodingproblem.com/ )
 
+### Problem 06/02
+Consider the following scenario: there are N mice and N holes placed at integer points along a line. Given this, find a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
+Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
+For example, suppose the mice are positioned at [1, 4, 9, 15], and the holes are located at [10, -5, 0, 16]. In this case, the best pairing would require us to send the mouse at 1 to the hole at -5, so our function should return 6.
 
-### Problem 02/09
+[Solution](6_02.py)
+
+
+### Problem 03/02
 Given a positive integer N, find the smallest number of steps it will take to reach 1.
 There are two kinds of permitted steps:
 You may decrement N to N - 1.
@@ -11,17 +18,6 @@ For example, given 100, you can reach 1 in five steps with the following route: 
 
 [Solution](03_02.py)
 
-### Problem 02/09
-
-Given an N by M matrix, rotate it by 90 degrees clockwise.
-[Solution](02_09.py)
-
-### Problem 01/09
-
-Given a list of words, find all pairs of unique indices such that the concatenation 
-of the two words is a palindrome.
-For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
-[Solution](01_09.py)
 
 ### Problem 20/12
 
@@ -51,4 +47,16 @@ The "look and say" sequence is defined as follows: beginning with the term 1, ea
 As an example, the fourth term is 1211, since the third term consists of one 2 and one 1.
 Given an integer N, print the Nth term of this sequence.
 [Solution](18_12.py)
+
+### Problem 02/09
+
+Given an N by M matrix, rotate it by 90 degrees clockwise.
+[Solution](02_09.py)
+
+### Problem 01/09
+
+Given a list of words, find all pairs of unique indices such that the concatenation 
+of the two words is a palindrome.
+For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
+[Solution](01_09.py)
 
