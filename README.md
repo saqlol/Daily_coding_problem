@@ -1,29 +1,27 @@
 # Daily_coding_problem
 Solutions (si possible) aux problèmes quotidiens de Daily Coding Problem  en Python ( https://www.dailycodingproblem.com/ )
 
-### Problem 01/09
 
-Given a list of words, find all pairs of unique indices such that the concatenation 
-of the two words is a palindrome.
-For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
-[Solution](01_09.py)
+### Problem 02/09
+Given a positive integer N, find the smallest number of steps it will take to reach 1.
+There are two kinds of permitted steps:
+You may decrement N to N - 1.
+If a * b = N, you may decrement N to the larger of a and b.
+For example, given 100, you can reach 1 in five steps with the following route: 100 -> 10 -> 9 -> 3 -> 2 -> 1.
+
+[Solution](03_10.py)
 
 ### Problem 02/09
 
 Given an N by M matrix, rotate it by 90 degrees clockwise.
 [Solution](02_09.py)
 
-### Problem 18/12
+### Problem 01/09
 
-The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
-1
-11
-21
-1211
-111221
-As an example, the fourth term is 1211, since the third term consists of one 2 and one 1.
-Given an integer N, print the Nth term of this sequence.
-[Solution](18_12.py)
+Given a list of words, find all pairs of unique indices such that the concatenation 
+of the two words is a palindrome.
+For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
+[Solution](01_09.py)
 
 ### Problem 20/12
 
@@ -40,3 +38,17 @@ Visually, this can be represented as follows.
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid 
 UTF-8 encoding.
 [Solution](20_12.py)
+
+
+### Problem 18/12
+
+The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
+1
+11
+21
+1211
+111221
+As an example, the fourth term is 1211, since the third term consists of one 2 and one 1.
+Given an integer N, print the Nth term of this sequence.
+[Solution](18_12.py)
+
