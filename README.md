@@ -1,6 +1,14 @@
 # Daily_coding_problem
 Solutions (si possible) aux problèmes quotidiens de Daily Coding Problem  en Python ( https://www.dailycodingproblem.com/ )
 
+
+
+### Problem 10/02
+In chess, the Elo rating system is used to calculate player strengths based on game results.
+A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
+
+[Solution](10_02.py)
+
 ### Problem 06/02
 Consider the following scenario: there are N mice and N holes placed at integer points along a line. Given this, find a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
 Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
